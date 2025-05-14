@@ -1,0 +1,15 @@
+.count{
+    color: green;
+    padding: 5px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+span{
+    width: 80px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}

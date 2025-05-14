@@ -1,5 +1,5 @@
 import {useEffect, useState} from 'react';
-
+import "./Counter.css"
 const Counter = (props) => {
     const [count,setCount]=useState(5);
     useEffect(()=>{
@@ -19,7 +19,7 @@ const Counter = (props) => {
         return ()=> clearInterval(intervalId);
 
     },[])
-    return <div>{count}</div>
+    return <div className='count'><span>{count}</span></div>
 }
 
 export default Counter
